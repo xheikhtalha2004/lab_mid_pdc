@@ -1,0 +1,20 @@
+# Core Python Packages
+matplotlib>=3.5.0
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Research Paper Specific Packages
+networkx>=2.6.0
+mpi4py>=3.1.0
+
+# OMP4Py - The main library from the research paper
+# Install from GitHub (primary method)
+git+https://github.com/citiususc/omp4py.git
+
+# Alternative if the above doesn't work, try:
+# omp4py>=1.0.0
+
+# Development/Testing (optional)
+pytest>=6.0.0
+ipython>=8.0.0
+jupyter>=1.0.0
