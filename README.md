@@ -147,6 +147,16 @@ with omp("parallel for reduction(+:total) schedule(static)"):
 
 ## 📊 Generated Plots
 
+#### 1. Research Paper Replication Plot
+
+![Research Paper Replication](research_paper_replication.png)
+_Figure: Scalability of numerical algorithms matching the original paper's Figure 8_
+
+#### 2. Comprehensive Efficiency Analysis
+
+![Comprehensive Efficiency Analysis](comprehensive_efficiency_analysis.png)
+_Figure: Detailed efficiency analysis including parallel efficiency, speedup comparison, and GIL impact assessment_
+
 ### 1. Research Paper Replication Plot
 
 - Shows scalability of all 6 numerical algorithms
