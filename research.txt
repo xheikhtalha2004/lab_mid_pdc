@@ -1,0 +1,14 @@
+2.3. Feature Completeness and Missing OpenMP Specifications
+OMP4Py is currently designed to fully support the OpenMP 3.0 specification, which encompasses the widely used OpenMP Common Core elements. This includes parallel regions, work-sharing constructs (for, sections, single), basic data environment clauses (private, shared, reduction), and runtime functions.   
+
+However, the rapid evolution of the OpenMP standard (now at version 6.0) has introduced critical features that OMP4Py, as a 3.0 implementation, currently lacks. The missing functionality represents a significant gap for modern HPC applications:   
+
+Task Dependencies: The implementation currently uses synchronous tasking enforced by taskwait. It lacks the depend clause introduced in OpenMP 4.0, which is essential for defining asynchronous, data-flow-driven execution graphs.   
+
+Thread Teams: Advanced features for managing thread hierarchy and nested parallelism beyond basic nested parallel regions are not explicitly supported.   
+
+Accelerator Offloading: The capability to use target directives to offload computations to accelerators (such as GPUs or specialized hardware) is absent, limiting OMP4Py’s reach into heterogeneous computing, a core capability of OpenMP 4.0+.   
+
+The developers correctly identify the incorporation of these advanced features (versions 4.0 through 6.0) as necessary future work.
+                                                                                                                                                                                                    
+                                                                                          https://gemini.google.com/share/19ceac7f33fd
